@@ -17,8 +17,9 @@ import FAQ from '../screens/FAQ';
 
 
 const HomeStack = createStackNavigator({
+  HomeScreen: HomeScreen,
   Home: HomeScreen,
- 
+  Map: {screen: Map}, 
   Account: { screen: Account },
   Login: { screen: Login},
   Register: {screen: Register},
