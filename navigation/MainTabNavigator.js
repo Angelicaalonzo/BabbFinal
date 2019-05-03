@@ -13,11 +13,13 @@ import Sponsors from '../screens/Sponsors';
 import Speakers from '../screens/Speakers';
 import Directors from '../screens/Directors';
 import FAQ from '../screens/FAQ';
+import EventMap from '../screens/EventMap';
 
 
 const HomeStack = createStackNavigator({
   HomeScreen: HomeScreen,
-  Home: HomeScreen, 
+  Home: HomeScreen,
+  Map: {screen: EventMap}, 
   Account: { screen: Account },
   Login: { screen: Login},
   Register: {screen: Register},
