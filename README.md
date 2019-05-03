@@ -29,8 +29,10 @@
     * R&D
     * Transferring original code base into functional app.
     * Navigation bar
+    * Main debugger
 * Mara
     * Wireframes
     * R&D
     * Original page linking for navigation bar
     * Firebase Integration
+    * Connecting Firebase database to page screen

@@ -1,6 +1,6 @@
 import React from 'react';
 import * as firebase from 'firebase';
-import Keys from './Keys.json';
+import Keys from '../Keys.json';
 
 firebase.initializeApp(Keys);
 
@@ -18,12 +18,12 @@ var cards = [];
 
 getItems();
 async function getItems() {
-  const mainData = await firebase.firestore().collection("members").get(); // Replace "members" with the name of your collection
+  const mainData = await firebase.firestore().collection("items").get(); 
   var relData = mainData.docs.map(doc => doc.data());
 
   for (var i = 0; i < relData.length; i++) {
-    cards.push(<Card><Text h3 style={{color:'dodgerblue'}}>{relData[i].Name}</Text><Text style={{fontWeight:'bold'}}>{relData[i].School + "\n"}</Text><Text>{relData[i].Role}</Text></Card>)
-                                                                    // Properties that you set in the database will be accessed by their name in the database (ie. "Name", "School", "Role"). These will be whatever you set them to
+    cards.push(<Card><Text h3 style={{color:'dodgerblue'}}>{relData[i].Name}</Text>
+    <Text style={{fontWeight:'bold'}}>{relData[i].Location + "\n"}</Text></Card>)
 }
 }
 
