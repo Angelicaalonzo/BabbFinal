@@ -29,9 +29,10 @@
     * Wireframes
     * R&D
     * Transferring original code base into functional app.
-    * Navigation bar
+    * Botttom Navigation bar (Still needs work)
     * Main debugger
-    * Sponsors, Directors, Speakers (Still needs work)
+    * Sponsors, Directors
+    * Speakers (Still needs work)
     * Map
 * Mara
     * Wireframes
@@ -40,5 +41,5 @@
     * Firebase Integration
     * Connecting Firebase database to page screen
     * Social Media
-    * Login and Register still need work
-    * Schedule
+    * Login and Register(Still needs work)
+    * Schedule (Still needs work)
