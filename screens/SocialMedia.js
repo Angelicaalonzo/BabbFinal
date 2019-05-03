@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
+import { SocialIcon } from 'react-native-elements'
 
 export default class SocialMedia extends React.Component {
   static navigationOptions = {
@@ -8,13 +9,21 @@ export default class SocialMedia extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Button
-          title="Home"
-          onPress={() =>
-            this.props.navigation.navigate('Home')
-          }
-        />
-        <Text> This is the social media page. </Text>
+        <SocialIcon 
+          title='Follow us on Twitter'
+          button
+          onPress={ ()=>{ Linking.openURL('https://twitter.com/edsigcon')}} 
+          type='twitter' />
+        <SocialIcon 
+          title='Like us on Facebook'
+          button
+          onPress={ ()=>{ Linking.openURL('https://www.facebook.com/groups/edsig/')}} 
+          type='facebook' />
+        <SocialIcon 
+          title='See our LinkedIn'
+          button
+          onPress={ ()=>{ Linking.openURL('https://www.linkedin.com/groups/8655139/')}} 
+          type='linkedin' />
       </View>
     );
   }
