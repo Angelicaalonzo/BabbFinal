@@ -29,7 +29,7 @@
     * Wireframes
     * R&D
     * Transferring original code base into functional app.
-    * Botttom Navigation bar (Still needs work)
+    * Botttom Navigation bar (Still needs work)clear
     * Main debugger
     * Sponsors, Directors
     * Speakers (Still needs work)
