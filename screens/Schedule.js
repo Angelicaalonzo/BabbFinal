@@ -4,6 +4,9 @@ import { List, ListItem, Left, Body, Right } from 'native-base';
 import { Calendar, CalendarList, Agenda } from 'react-native-calendars';
 
 export default class Schedule extends React.Component {
+  static navigationOptions = {
+    title: 'Event Calendar and Events',
+  };
   render() {
     return (
       <View style={styles.container}>

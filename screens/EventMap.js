@@ -2,6 +2,9 @@ import React from 'react';
 import { MapView } from 'expo';
 
 export default class EventMap extends React.Component {
+  static navigationOptions = {
+    title: 'Event Map',
+  };
   render() {
     return (
       <MapView 

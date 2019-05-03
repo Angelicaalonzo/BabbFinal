@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Container, Header, Content, List, ListItem, Thumbnail, Text, Left, Body, Right, Button } from 'native-base';
 
 export default class Sponsors extends Component {
+  static navigationOptions = {
+    title: 'Sponsors',
+  };
   render() {
     return (
       <Container>

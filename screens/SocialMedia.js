@@ -2,6 +2,9 @@ import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 
 export default class SocialMedia extends React.Component {
+  static navigationOptions = {
+    title: 'Social Media',
+  };
   render() {
     return (
       <View style={styles.container}>

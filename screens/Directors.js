@@ -1,24 +1,10 @@
 import React, { Component } from 'react';
 import { Container, Header, Content, List, ListItem, Thumbnail, Text, Left, Body, Right, Button } from 'native-base';
 
-// export default class Directors extends React.Component {
-//   render() {
-//     return (
-//       <View style={styles.container}>
-//         <Button
-//           title="Home"
-//           onPress={() =>
-//             this.props.navigation.navigate('Home')
-//           }
-//         />
-//         <Text> This is the event directors page. </Text>
-//       </View>
-//     );
-//   }
-// }
-
-
 export default class ListThumbnailExample extends Component {
+  static navigationOptions = {
+    title: 'Directors',
+  };
   render() {
     return (
       <Container>

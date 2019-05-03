@@ -3,6 +3,9 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 import { Container, Header, Content, Form, Item, Input, Label } from 'native-base';
 
 export default class Register extends React.Component {
+  static navigationOptions = {
+    title: 'Register for EDSIGCON',
+  };
   render() {
     return (
       <Container>
