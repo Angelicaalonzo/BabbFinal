@@ -1,0 +1,9 @@
+{
+    apiKey: "AIzaSyAvuNoc9YRbunAZcfgIh1okkhd2X82VD2Q",
+    authDomain: "edsigcon.firebaseapp.com",
+    databaseURL: "https://edsigcon.firebaseio.com",
+    projectId: "edsigcon",
+    storageBucket: "edsigcon.appspot.com",
+    messagingSenderId: "963084684951",
+    appId: "1:963084684951:web:5034beedcadc4589"
+  }
