@@ -4,6 +4,7 @@
 * Pull the code and run the following code in the terminal to add the nodemodules folder and others from the package.json file:
 
     `npm install`
+    `npm intall --save react-native-elements`
 
 * Run the following code in the terminal for installing firebase packages:
 

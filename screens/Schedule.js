@@ -42,10 +42,50 @@ export default class Schedule extends React.Component {
         <List>
           <ListItem thumbnail>
             <Left>
-              <Text>November 6 at 6:00pm </Text>
+              <Text>November 6 - 6:00pm </Text>
             </Left>
             <Right>
-              <Text>Light Reception - Registration</Text>
+              <Text>Light Reception & Registration</Text>
+            </Right>
+          </ListItem>
+          <ListItem thumbnail>
+            <Left>
+              <Text>November 7 - 7:00am to 4:30pm </Text>
+            </Left>
+            <Right>
+              <Text>Registration</Text>
+            </Right>
+          </ListItem>
+          <ListItem thumbnail>
+            <Left>
+              <Text>November 7 - 7:30am </Text>
+            </Left>
+            <Right>
+              <Text>Breakfast</Text>
+            </Right>
+          </ListItem>
+          <ListItem thumbnail>
+            <Left>
+              <Text>November 7 - 8:30am to 12:00pm </Text>
+            </Left>
+            <Right>
+              <Text>Workshops & Sessions</Text>
+            </Right>
+          </ListItem>
+          <ListItem thumbnail>
+            <Left>
+              <Text>November 7 - 12:00pm </Text>
+            </Left>
+            <Right>
+              <Text>Industry Keynote Lunch</Text>
+            </Right>
+          </ListItem>
+          <ListItem thumbnail>
+            <Left>
+              <Text>November 7 - 2:00pm to 4:30pm </Text>
+            </Left>
+            <Right>
+              <Text>Workshops & Sessions</Text>
             </Right>
           </ListItem>
         </List>
