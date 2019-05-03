@@ -1,6 +1,6 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
-import { Calendar, CalendarList, Agenda } from 'react-native-calendars';
+import { StyleSheet, View } from 'react-native';
+import { Calendar } from 'react-native-calendars';
 
 export default class Schedule extends React.Component {
   render() {
