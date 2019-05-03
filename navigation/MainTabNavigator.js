@@ -4,7 +4,6 @@ import { createStackNavigator, createBottomTabNavigator, AppNavigator } from 're
 import TabBarIcon from '../screens/TabBarIcon';
 import HomeScreen from '../screens/HomeScreen';
 import LinksScreen from '../screens/LinksScreen';
-import SettingsScreen from '../screens/SettingsScreen';
 import Login from '../screens/Login';
 import Register from '../screens/Register';
 import Account from '../screens/Account';
@@ -18,8 +17,7 @@ import FAQ from '../screens/FAQ';
 
 const HomeStack = createStackNavigator({
   HomeScreen: HomeScreen,
-  Home: HomeScreen,
-  Map: {screen: Map}, 
+  Home: HomeScreen, 
   Account: { screen: Account },
   Login: { screen: Login},
   Register: {screen: Register},
@@ -29,6 +27,7 @@ const HomeStack = createStackNavigator({
   Speakers: {screen: Speakers},
   Directors: {screen: Directors},
   FAQ: {screen: FAQ},
+  
 });
 
 HomeStack.navigationOptions = {
@@ -59,25 +58,7 @@ LinksStack.navigationOptions = {
   ),
 };
 
-const SettingsStack = createStackNavigator({
-  Settings: SettingsScreen,
-});
-
-SettingsStack.navigationOptions = {
-  tabBarLabel: 'Settings',
-  tabBarIcon: ({ focused }) => (
-    <TabBarIcon
-      focused={focused}
-      name={Platform.OS === 'ios' ? 'ios-options' : 'md-options'}
-    />
-  ),
-};
-
-
-
 export default createBottomTabNavigator({
   HomeStack,
   LinksStack,
-  SettingsStack,
-  
 });

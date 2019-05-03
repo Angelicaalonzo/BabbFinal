@@ -6,13 +6,7 @@ export default class Account extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Button
-          title="Home"
-          onPress={() =>
-            this.props.navigation.navigate('Home')
-          }
-        />
-        <Text> This is my account page. </Text>
+        
       </View>
     );
   }

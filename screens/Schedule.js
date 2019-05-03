@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
+import { List, ListItem, Left, Body, Right } from 'native-base';
 import { Calendar, CalendarList, Agenda } from 'react-native-calendars';
 
 export default class Schedule extends React.Component {
@@ -34,7 +35,17 @@ export default class Schedule extends React.Component {
             '2019-11-08': {marked: true},
             '2019-11-09': {marked: true}
           }}
-        />
+        />       
+        <List>
+          <ListItem thumbnail>
+            <Left>
+              <Text>November 6 at 6:00pm </Text>
+            </Left>
+            <Right>
+              <Text>Light Reception - Registration</Text>
+            </Right>
+          </ListItem>
+        </List>
       </View>
     );
   }

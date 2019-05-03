@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import { Container, Header, Content, List, ListItem, Thumbnail, Text, Left, Body, Right, Button } from 'native-base';
-export default class ListThumbnailExample extends Component {
+
+export default class Sponsors extends Component {
   render() {
     return (
       <Container>
-        <Header />
-        
+        <Header />        
         <Content>
-        
           <List>
             <ListItem thumbnail>
               <Left>
@@ -15,10 +14,8 @@ export default class ListThumbnailExample extends Component {
               </Left>
               <Body>
                 <Text>Mcgraw Hill</Text>
-                
               </Body>
               <Right>
-                
               </Right>
             </ListItem>
           </List>

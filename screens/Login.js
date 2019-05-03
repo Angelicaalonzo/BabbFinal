@@ -1,21 +1,13 @@
-
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
-
-
 import { Container, Header, Content, Form, Item, Input, Label } from 'native-base';
-export default class StackedLabelExample extends Component {
+
+export default class Login extends Component {
   render() {
     return (
       <Container>
         <Header />
         <Content>
-        <Button
-          title="Home"
-          onPress={() =>
-            this.props.navigation.navigate('Home')
-          }
-        />
           <Form>
             <Item stackedLabel>
               <Label>Username</Label>
@@ -31,7 +23,6 @@ export default class StackedLabelExample extends Component {
             this.props.navigation.navigate('Account')
           }
         />
-           
           </Form>
         </Content>
 

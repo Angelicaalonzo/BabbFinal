@@ -1,0 +1,7 @@
+{
+    "apiKey": "AIzaSyAvuNoc9YRbunAZcfgIh1okkhd2X82VD2Q",
+    "authDomain": "edsigcon.firebaseapp.com",
+    "databaseURL": "https://edsigcon.firebaseio.com",
+    "projectId": "edsigcon",
+    "storageBucket": "edsigcon.appspot.com"
+}
