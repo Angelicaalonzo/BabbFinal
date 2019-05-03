@@ -1,3 +1,5 @@
+// This code was based on documentation from https://facebook.github.io/react-native/docs/navigation
+
 import React from 'react';
 import { Platform } from 'react-native';
 import { createStackNavigator, createBottomTabNavigator, AppNavigator } from 'react-navigation';

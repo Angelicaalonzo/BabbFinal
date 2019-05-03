@@ -7,6 +7,7 @@ export default class EventMap extends React.Component {
   };
   render() {
     return (
+      // This code was based on example code from facebook's react native guide.
       <MapView 
         style = {{ flex: 1}}
         initialRegion={{

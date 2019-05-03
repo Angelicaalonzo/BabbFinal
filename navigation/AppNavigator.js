@@ -1,3 +1,5 @@
+// This code was based on documentation from https://facebook.github.io/react-native/docs/navigation
+
 import React from 'react';
 import { createAppContainer, createSwitchNavigator } from 'react-navigation';
 

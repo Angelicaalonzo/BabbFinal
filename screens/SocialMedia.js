@@ -9,9 +9,11 @@ export default class SocialMedia extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+      {/* This code was based on examples from https://react-native-training.github.io/react-native-elements/docs/social_icon.html */}
         <SocialIcon 
           title='Follow us on Twitter'
           button
+          // These are links directly to the convention's social media sites
           onPress={ ()=>{ Linking.openURL('https://twitter.com/edsigcon')}} 
           type='twitter' />
         <SocialIcon 
