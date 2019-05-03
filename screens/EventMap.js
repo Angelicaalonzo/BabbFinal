@@ -1,11 +1,11 @@
 import React from 'react';
 import { MapView } from 'expo';
-import MapView from 'react-native-maps';
 
 export default class EventMap extends React.Component {
   render() {
     return (
-      <MapView
+      <MapView 
+        style = {{ flex: 1}}
         initialRegion={{
           latitude: 41.499538,
           longitude: -81.695900,

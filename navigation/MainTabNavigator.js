@@ -12,8 +12,8 @@ import Schedule from '../screens/Schedule';
 import Sponsors from '../screens/Sponsors';
 import Speakers from '../screens/Speakers';
 import Directors from '../screens/Directors';
-import FAQ from '../screens/FAQ';
 import EventMap from '../screens/EventMap';
+import Lost from '../screens/Lost';
 
 
 const HomeStack = createStackNavigator({
@@ -28,8 +28,7 @@ const HomeStack = createStackNavigator({
   Sponsors: {screen: Sponsors},
   Speakers: {screen: Speakers},
   Directors: {screen: Directors},
-  FAQ: {screen: FAQ},
-  
+  Lost: {screen: Lost},
 });
 
 HomeStack.navigationOptions = {

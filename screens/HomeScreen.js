@@ -39,8 +39,8 @@ export default class HomeScreen extends React.Component {
           onPress={() => this.props.navigation.navigate('Speakers')}
         />
         <Button
-          title="FAQ"
-          onPress={() => this.props.navigation.navigate('FAQ')}
+          title="Lost & Found"
+          onPress={() => this.props.navigation.navigate('Lost')}
         />
       </View>
     );
