@@ -30,9 +30,14 @@
     * Transferring original code base into functional app.
     * Navigation bar
     * Main debugger
+    * Sponsors, Directors, Speakers (Still needs work)
+    * Map
 * Mara
     * Wireframes
     * R&D
     * Original page linking for navigation bar
     * Firebase Integration
     * Connecting Firebase database to page screen
+    * Social Media
+    * Login and Register still need work
+    * Schedule
